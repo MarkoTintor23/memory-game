@@ -54,3 +54,9 @@ body {
 .mode-btn:hover {
   background: #0056b3;
 }
+.tile {
+  width: 100px; /* Ili neka druga veličina po želji */
+  height: 100px; /* Isto kao i širina */
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
