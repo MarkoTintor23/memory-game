@@ -81,7 +81,7 @@ class Game {
     const counter = document.querySelector("#move-counter");
 
     if (counter) {
-      counter.textContent = `Potezi preostali: ${remainingMoves}`;
+      counter.textContent = `Remaining: ${remainingMoves}`;
     }
   }
 
@@ -101,7 +101,7 @@ class Game {
   }
 
   endGame(isWin) {
-    const message = isWin ? "Pobeda! Čestitamo!" : "Igra je završena. Poraz.";
+    const message = isWin ? "You win!" : "Game over!";
     alert(message);
     this.resetGame();
   }
